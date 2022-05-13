@@ -63,3 +63,20 @@ q4u = pitch - q2u - q3u;
 qinv(1,1:4) = [q1 q2u q3u q4u];
 qinv(2,1:4) = [q1 q2d q3d q4d];
 disp(rad2deg(qinv))
+%%
+% Solucion alternativa para q4
+T03d = PhantomX.A([1 2 3],[q1 q2d q3d]);
+R_3Td = (T03d(1:3,1:3))'*T(1:3,1:3);
+% syms q4
+% L(4).A(q4)*PhantomX.tool
+% [ sin(q4),  0, cos(q4), 9*cos(q4)]
+% [-cos(q4),  0, sin(q4), 9*sin(q4)]
+% [       0, -1,       0,         0]
+% [       0,  0,       0,         1]
+q4d = atan2(R_3Td(1,1),-R_3Td(2,1));
+T03u = PhantomX.A([1 2 3],[q1 q2u q3u]);
+R_3Tu = (T03u(1:3,1:3))'*T(1:3,1:3);
+q4u = atan2(R_3Tu(1,1),-R_3Tu(2,1));
+qinv(1,1:4) = [q1 q2u q3u q4u];
+qinv(2,1:4) = [q1 q2d q3d q4d];
+disp(rad2deg(qinv))
