@@ -9,7 +9,7 @@ PhantomX = SerialLink(L,'name','Px');
 PhantomX.tool = [0 0 1 l(4); -1 0 0 0; 0 -1 0 0; 0 0 0 1];
 ws = [-50 50];
 % Graficar robot
-q = deg2rad([60, -50, -50, 10]);
+q = deg2rad([60, -70, 20, 15]);
 PhantomX.plot(q,'notiles','noname');
 hold on
 trplot(eye(4),'rgb','arrow','length',15,'frame','0')
@@ -22,20 +22,20 @@ for i=1:PhantomX.n
     trplot(M,'rgb','arrow','frame',num2str(i),'length',15)
 end
 %%
-qt = deg2rad([60 -80 20 25]);
+qt = deg2rad([60, -70, 20, 15]);
 Tt = PhantomX.fkine(qt);
 %%
 % Desacople
 T = Tt;
-Tw = T - l(4)*T(1:4,3); % MTH Wrist
-
+Posw = T(1:3,4) - l(4)*T(1:3,3); % MTH Wrist
+%%
 % Solucion q1
-q1 = atan2(Tw(2,4),Tw(1,4));
-%rad2deg(q1)
-
+q1 = atan2(Posw(2),Posw(1));
+rad2deg(q1)
+%%
 % Solución 2R
-h = Tw(3,4) - l(1);
-r = sqrt(Tw(1,4)^2 + Tw(2,4)^2);
+h = Posw(3) - l(1);
+r = sqrt(Posw(1)^2 + Posw(2)^2);
 
 % Codo abajo
 the3 = acos((r^2+h^2-l(2)^2-l(3)^2)/(2*l(2)*l(3)));
@@ -46,12 +46,12 @@ q3d = the3;
 
 % Codo arriba
 % the3 = acos((r^2+h^2-l(2)^2-l(3)^2)/(2*l(2)*l(3)));
-% the2 = atan2(h,r) + atan2(l(3)*sin(the3),l(2)+l(3)*cos(the3));
+the2 = atan2(h,r) + atan2(l(3)*sin(the3),l(2)+l(3)*cos(the3));
 q2u = -(pi/2-the2);
 q3u = -the3;
 
-%disp(rad2deg([q2d q3d; q2u q3u]))
-
+disp(rad2deg([q2d q3d; q2u q3u]))
+%%
 % Solucion de q4
 Rp = (rotz(q1))'*T(1:3,1:3);
 pitch = atan2(Rp(3,1),Rp(1,1));
@@ -74,6 +74,8 @@ R_3Td = (T03d(1:3,1:3))'*T(1:3,1:3);
 % [       0, -1,       0,         0]
 % [       0,  0,       0,         1]
 q4d = atan2(R_3Td(1,1),-R_3Td(2,1));
+rad2deg(q4d)
+%%
 T03u = PhantomX.A([1 2 3],[q1 q2u q3u]);
 R_3Tu = (T03u(1:3,1:3))'*T(1:3,1:3);
 q4u = atan2(R_3Tu(1,1),-R_3Tu(2,1));
