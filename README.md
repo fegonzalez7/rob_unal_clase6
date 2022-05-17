@@ -7,16 +7,16 @@ The following meme should describe our feelings so far.
 But don't worry, after this class everything is gonna be more understanable.
 
 ## The kinematics problem
-<details>
+<details><summary>TBA</summary>
 </details>
 
 ## A spot of light - Geometrical approach
-<details>
+<details><summary>10th class</summary>
   Seen in class
 </details>
 
 ## Numerical Methods
-<details>
+<details><summary>TBA</summary>
 </details>
 
 ------------
