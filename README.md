@@ -20,9 +20,14 @@ But don't worry, after this class everything is gonna be more understanable.
 </details>
 
 ------------
-
 `<Lab guide>` : https://drive.google.com/file/d/1tYA0gQ9XO5WdSqxvGoNDuhaGTOsUNHZ_/view?usp=sharing
 
+Suggested pieces for the lab:
+```sh
+pip install gdown
+gdwon --id 14Xp9oiURIpeZDVdC0CXu595G7Bunqgh5
+gdwon --id 1FriMnXi1eF2S0NBVbNXHXbg8Je8QTHQi
+```
 ------------
 
 **Acknowledgments:**
