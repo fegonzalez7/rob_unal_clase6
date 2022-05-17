@@ -25,8 +25,8 @@ But don't worry, after this class everything is gonna be more understanable.
 Suggested pieces for the lab:
 ```sh
 pip install gdown
-gdwon --id 14Xp9oiURIpeZDVdC0CXu595G7Bunqgh5
-gdwon --id 1FriMnXi1eF2S0NBVbNXHXbg8Je8QTHQi
+gdown --id 14Xp9oiURIpeZDVdC0CXu595G7Bunqgh5
+gdown --id 1FriMnXi1eF2S0NBVbNXHXbg8Je8QTHQi
 ```
 ------------
 
