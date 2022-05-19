@@ -82,3 +82,23 @@ q4u = atan2(R_3Tu(1,1),-R_3Tu(2,1));
 qinv(1,1:4) = [q1 q2u q3u q4u];
 qinv(2,1:4) = [q1 q2d q3d q4d];
 disp(rad2deg(qinv))
+%%
+T0 = transl(15,10,18)*trotz(pi/6)*troty(pi/2);
+T1 = transl(15,-10,18)*trotz(-pi/6)*troty(pi/2);
+% ctraj
+T01 = ctraj(T0,T1,20);
+% ciclo para calcular y graficar el robot
+pause(3)
+for i=1:20
+   qinv = invKinPxC(T01(:,:,i),l);
+   PhantomX.plot(qinv(2,:),'notiles','noname')
+   plot3(T01(1,4,i),T01(2,4,i),T01(3,4,i),'ro')
+   q_inv(i,:) = qinv(2,:);
+   %pause(0.5)
+end
+%%
+figure(2)
+plot(q_inv(:,:),'lineWidth',2)
+grid on
+axis([1 20 -pi pi])
+
