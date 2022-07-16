@@ -17,7 +17,14 @@ But don't worry, after this class everything is gonna be more understanable.
 
 ## Numerical Methods
 <details><summary>TBA</summary>
-</details>
+</details></br>
+
+
+Well, I did not have enough time to design a great repo. The class was awesome (that's what she/people said), but I will leave some repos to read.
+
+**Phantom X:** [Camilo and Ajelandra](https://github.com/caverar/ROS_Robotics_Lab3) -> Superb, repo. I want to say thanks to Alejandra, she told me about some problems in the inverse kinematics problem. I solved them, but as Fermat once said: I don't have enough space to write the solution.
+
+**PX 100:** [Chivita and Brayan](https://github.com/cychitivav/px100_ikine) -> I taught this guy how to create repos, nicely crafted and quite well explained.
 
 ------------
 `<Lab guide>` : https://drive.google.com/file/d/1tYA0gQ9XO5WdSqxvGoNDuhaGTOsUNHZ_/view?usp=sharing
@@ -32,7 +39,9 @@ gdown --id 1FriMnXi1eF2S0NBVbNXHXbg8Je8QTHQi
 
 **Acknowledgments:**
 
- - Basically...
+ - I, me and myself
+ - [Mr. Chitiva](https://github.com/cychitivav) -> good pics
+ - [Alejandra](https://github.com/ariasAleia) -> The only person who has the guts to challenge me
 
 This repo has taken a lot of effort, so consider to leave a star, [follow me](https://felipeg17.github.io/index.html), and if you feel generous I have [Paypal](https://paypal.me/fegonzalez17?country.x=CO&locale.x=en_US) (just kidding).
 
