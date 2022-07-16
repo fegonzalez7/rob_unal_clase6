@@ -22,8 +22,8 @@ for i=1:PhantomX.n
     trplot(M,'rgb','arrow','frame',num2str(i),'length',15)
 end
 %%
-qt = deg2rad([60, -70, 20, 15]);
-Tt = PhantomX.fkine(qt);
+qt = deg2rad([60, -50, -60, 15]);
+Tt = PhantomX.fkine(q);
 %%
 % Desacople
 T = Tt;
