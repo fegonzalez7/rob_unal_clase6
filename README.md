@@ -37,7 +37,7 @@ gdown --id 1FriMnXi1eF2S0NBVbNXHXbg8Je8QTHQi
 ```
 ------------
 
-**Acknowledgments:**
+## Acknowledgments:
 
 https://user-images.githubusercontent.com/25491198/179431608-47129250-4389-4ba0-8d48-765140012ca6.mov
 
