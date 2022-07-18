@@ -39,7 +39,9 @@ gdown --id 1FriMnXi1eF2S0NBVbNXHXbg8Je8QTHQi
 
 **Acknowledgments:**
 
- - I, me and myself
+https://user-images.githubusercontent.com/25491198/179431608-47129250-4389-4ba0-8d48-765140012ca6.mov
+
+ - [me myself & I](https://www.youtube.com/watch?v=K533gW3boIY)
  - [Mr. Chitiva](https://github.com/cychitivav) -> good pics
  - [Alejandra](https://github.com/ariasAleia) -> The only person who has the guts to challenge me
 
