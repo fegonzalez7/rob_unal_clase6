@@ -22,7 +22,7 @@ But don't worry, after this class everything is gonna be more understanable.
 
 Well, I did not have enough time to design a great repo. The class was awesome (that's what she/people said), but I will leave some repos to read.
 
-**Phantom X:** [Camilo and Alejandra](https://github.com/caverar/ROS_Robotics_Lab3) -> Superb, repo. I want to say thanks to Alejandra, she told me about some problems in the inverse kinematics problem. I solved them, but as Fermat once said: I don't have enough space to write the solution.
+**Phantom X:** [Camilo and Alejandra](https://github.com/caverar/ROS_Robotics_Lab3) -> Superb, repo. I want to say thanks to Alejandra, she told me about some issues in the inverse kinematics problem. I solved them, but as Fermat once said: I don't have enough space to write the solution.
 
 **PX 100:** [Chitiva and Brayan](https://github.com/cychitivav/px100_ikine) -> I taught this guy how to create repos, nicely crafted and quite well explained.
 
@@ -37,9 +37,11 @@ gdown --id 1FriMnXi1eF2S0NBVbNXHXbg8Je8QTHQi
 ```
 ------------
 
-**Acknowledgments:**
+## Acknowledgments:
 
- - I, me and myself
+https://user-images.githubusercontent.com/25491198/179431608-47129250-4389-4ba0-8d48-765140012ca6.mov
+
+ - [me myself & I](https://www.youtube.com/watch?v=K533gW3boIY)
  - [Mr. Chitiva](https://github.com/cychitivav) -> good pics
  - [Alejandra](https://github.com/ariasAleia) -> The only person who has the guts to challenge me
 
