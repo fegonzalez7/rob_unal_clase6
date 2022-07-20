@@ -43,7 +43,7 @@ https://user-images.githubusercontent.com/25491198/179431608-47129250-4389-4ba0-
 
  - [me myself & I](https://www.youtube.com/watch?v=K533gW3boIY)
  - [Mr. Chitiva](https://github.com/cychitivav) -> good pics
- - [Alejandra](https://github.com/ariasAleia) -> The only person who has the guts to challenge me
+ - [Alejandra](https://github.com/ariasAleia) -> The only person who has the guts to challenge me and beat me :P
 
 This repo has taken a lot of effort, so consider to leave a star, [follow me](https://felipeg17.github.io/index.html), and if you feel generous I have [Paypal](https://paypal.me/fegonzalez17?country.x=CO&locale.x=en_US) (just kidding).
 
